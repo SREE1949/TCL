@@ -20,4 +20,7 @@ puts [array size my_arr]
  #to print the indices of the array
  puts [array names my_arr2]
 
-
+#iteration using foreach
+ foreach i [array name my_arr] {
+	 puts $my_arr($i)
+ }
